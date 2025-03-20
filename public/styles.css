@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%; /* Adjust width */
+    max-width: 700px; /* Set a max limit */
+    height: 500px; /* Increase height */
+    max-height: 90vh; /* Prevent overflow on smaller screens */
+    padding: 40px; /* Increase padding */
+    border-radius: 12px; /* Slightly larger corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* Enhance shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content */
+}
+
+
+
+.converter {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+input, select, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #ff5722;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e64a19;
+}
